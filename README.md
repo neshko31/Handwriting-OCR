@@ -44,7 +44,7 @@ cd NANS-Project
 Dataset used: **[OpenWrite Dataset - Version 2](https://www.kaggle.com/datasets/nenadlukic/openwrite-dataset/versions/2)**
 After downloading the dataset, folder structure should be as following:
 ```bash
-Handwriting-OCR
+NANS-Project
 ├───.venv # Kreira se kad napravite virtuelno okruženje, korak 4.
 ├───data
 │   ├───comnist-train-data
@@ -55,13 +55,7 @@ Handwriting-OCR
 │   ├───train_processed_comnist
 │   ├───train_processed_cyrillicmnist
 │   ├───train_processed_emnist
-│   ├───train_small
-│   ├───train_small_cyrillic
-│   ├───train_small_latin
-│   ├───val
-│   ├───val_small
-│   ├───val_small_cyrillic
-│   └───val_small_latin
+│   └───val
 ├───model
 └───requirements
 ```
