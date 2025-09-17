@@ -1,4 +1,4 @@
-# NANS-Project
+# Handwriting-OCR
 
 An Optical Character Recognition (OCR) model that is used for recognizing and extracting text from images containing characters in both Cyrillic and Latin alphabets. 
 Built as a project for NANS subject on Faculty of Technical Sciences in Novi Sad.
@@ -20,8 +20,8 @@ Built as a project for NANS subject on Faculty of Technical Sciences in Novi Sad
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/neshko31/NANS-Project.git
-cd NANS-Project
+git clone https://github.com/neshko31/Handwriting-OCR.git
+cd Handwriting-OCR
 ```
 
 2. Install dependencies:
@@ -44,7 +44,7 @@ cd NANS-Project
 Dataset used: **[OpenWrite Dataset - Version 2](https://www.kaggle.com/datasets/nenadlukic/openwrite-dataset/versions/2)**
 After downloading the dataset, folder structure should be as following:
 ```bash
-NANS-Project
+Handwriting-OCR
 ├───.venv
 ├───data
 │   ├───comnist-train-data
