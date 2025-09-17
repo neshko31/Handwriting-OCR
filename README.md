@@ -45,7 +45,7 @@ Dataset used: **[OpenWrite Dataset - Version 2](https://www.kaggle.com/datasets/
 After downloading the dataset, folder structure should be as following:
 ```bash
 NANS-Project
-├───.venv # Kreira se kad napravite virtuelno okruženje, korak 4.
+├───.venv
 ├───data
 │   ├───comnist-train-data
 │   ├───cyrillicmnist-train-data
