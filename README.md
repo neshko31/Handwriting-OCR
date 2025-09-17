@@ -1,12 +1,12 @@
-# Cursive-Handwriting-OCR
+# NANS-Project
 
-A robust Optical Character Recognition (OCR) model designed to accurately recognize and extract text from images containing characters in both Cyrillic and Latin alphabets. 
+An Optical Character Recognition (OCR) model that is used for recognizing and extracting text from images containing characters in both Cyrillic and Latin alphabets. 
 Built as a project for NANS subject on Faculty of Technical Sciences in Novi Sad.
 
 ## Features
 
 - **Dual-script support**: Recognizes both Cyrillic and Latin characters
-- **High accuracy**: Optimized for reliable text extraction
+- **Designed algorithm**: Row extraction algorithm
 - **Flexible input**: Supports various image formats
 - **Preprocessing**: Built-in image enhancement for better recognition
 
@@ -16,22 +16,12 @@ Built as a project for NANS subject on Faculty of Technical Sciences in Novi Sad
 
 - **Python 3.11.0** (recommended)
 
-**For Mac/Linux users:**
-```bash
-pip install -r requirements/requirements.txt
-```
-
-**For Windows users:**
-```bash
-pip install -r requirements/requirements_win.txt
-```
-
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/neshko31/Cursive-Handwriting-OCR.git
-cd Cursive-Handwriting-OCR
+git clone https://github.com/neshko31/NANS-Project.git
+cd NANS-Project
 ```
 
 2. Install dependencies:
@@ -49,7 +39,7 @@ cd Cursive-Handwriting-OCR
 ## Supported Languages
 
 - **Latin scripts**: English
-- **Cyrillic scripts**: Russian
+- **Cyrillic and Latin scripts**: Serbian
 
 ## License
 
@@ -62,4 +52,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Literature and used datasets
 - **[Soft Computing 2024](https://github.com/ftn-ai-lab/sc-2024)**
-- **[CoMNIST Dataset](https://www.kaggle.com/datasets/gregvial/comnist/data)**
+- **[Soft Computing 2024 Solutions](https://github.com/neshko31/sc-2024-resenja)**
+- **[OpenWrite Dataset - Version 2](https://www.kaggle.com/datasets/nenadlukic/openwrite-dataset/versions/2)**
