@@ -28,13 +28,43 @@ cd NANS-Project
 
    **Mac/Linux:**
    ```bash
+   python3.11  -m  venv  .venv
+   source  .venv/bin/activate
    pip install -r requirements/requirements.txt
    ```
    
    **Windows:**
    ```bash
+   py  -3.11  -m  venv  .venv
+   .venv\Scripts\activate
    pip install -r requirements/requirements_win.txt
    ```
+
+3. Download dataset:
+Dataset used: **[OpenWrite Dataset - Version 2](https://www.kaggle.com/datasets/nenadlukic/openwrite-dataset/versions/2)**
+After downloading the dataset, folder structure should be as following:
+```bash
+Handwriting-OCR
+├───.venv # Kreira se kad napravite virtuelno okruženje, korak 4.
+├───data
+│   ├───comnist-train-data
+│   ├───cyrillicmnist-train-data
+│   ├───emnist-train-data
+│   ├───test
+│   ├───train_processed
+│   ├───train_processed_comnist
+│   ├───train_processed_cyrillicmnist
+│   ├───train_processed_emnist
+│   ├───train_small
+│   ├───train_small_cyrillic
+│   ├───train_small_latin
+│   ├───val
+│   ├───val_small
+│   ├───val_small_cyrillic
+│   └───val_small_latin
+├───model
+└───requirements
+```
 
 ## Supported Languages
 
